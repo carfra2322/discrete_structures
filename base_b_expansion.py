@@ -10,6 +10,11 @@ ak := q mod b
 q := q div b
 k := k + 1
 return (ak−1, . . . , a1, a0) {(ak−1 . . . a1a0)b is the base b expansion of n}
+examples:
+#finding the hexadecimal expansion of 177130
+expansion_of_n(177130, 16)
+output: [2, 'B', 3, 'E', 'A']
+
 '''
 import math
 def expansion_of_n(n, b):
